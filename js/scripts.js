@@ -1,16 +1,16 @@
 function generateQuote() {
     const quotes = [
         {
-        quote: "We’ll always be with you. No one’s ever really gone. A thousand generations live in you now",
-        author: "Luke Skywalker, Star Wars episode IX"
+        quote: "Power comes in response to a need, not a desire. You have to create that need.",
+        author: "Son Goku, Dragon ball Z episode 178"
         },
         {
-            quote: "If you strike me down I will become more powerful than you could possibly imagine.",
-            author: "Ben Kenobi, Star Wars Episode IV"
+            quote: "Come on Kakarot, find a way, I've entrusted everything to you, my pride, my promise, EVERYTHING. I WONT TOLERATE FAILURE. Trespass into the domain of the Gods and use that might to conquer Jiren!",
+            author: "Prince Vegeta, Dragon Ball Super episode 129"
         },
         {
-            quote: "These aren’t the droids you’re looking for.",
-            author: "Ben Kenobi, Star Wars Episode IV"
+            quote: "I am the warrior you've heard of in legends, pure of heart and awakened by fury, that's what I am. I am the Super Saiyan, Son Goku!",
+            author: "Son Goku, Dragon Ball Z episode 95"
         }
             
         
@@ -27,4 +27,4 @@ window.onload = function () {
     generateQuote();
 }
 
-//document.getElementById("generate").addEventListener('click', generateQuote());
+document.getElementById("generate").addEventListener('click', generateQuote());
